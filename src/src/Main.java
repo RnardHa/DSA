@@ -1,6 +1,11 @@
 import ArrayAndHashing.*;
+import BinarySearch.*;
+import Heap.KClosestPointToOrigin;
+import Heap.LastStoneWeight;
 import SlidingWindow.BestTimeToBuyAndSellStock;
 import SlidingWindow.LongestSubstringWithoutRepeatingCharacter;
+import SlidingWindow.PermutationInString;
+import Stack.*;
 import TwoPointers.ContainerWithTheMostWater;
 import TwoPointers.ThreeSum;
 import TwoPointers.TwoSumII;
@@ -31,5 +36,26 @@ public class Main {
         // Sliding Window
         System.out.println(i++ + ". Best time to buy and sell stock: " + new BestTimeToBuyAndSellStock().solution());
         System.out.println(i++ + ". Longest Substring Without Repeating Characters: " + new LongestSubstringWithoutRepeatingCharacter().solution());
+        System.out.println(i++ + ". Permutation is string: " + new PermutationInString().solution());
+
+        // Stack
+        System.out.println(i++ + ". Valid parentheses: " + new ValidParentheses().solution());
+        System.out.println(i++ + ". Eval RPN: " + new EvaluateRPN().solution());
+        System.out.println(i++ + ". Generate parentheses: " + new GenerateParentheses().solution());
+        System.out.println(i++ + ". Daily temp: " + Arrays.toString(new DailyTemperature().solution()));
+        System.out.println(i++ + ". Car fleet: " + new CarFleet().solution());
+
+        //Binary Search
+        System.out.println(i++ + ". Binary search: " + new BinSearch().solution());
+        System.out.println(i++ + ". Search 2D matrix: " + new Search2DMatrix().solution());
+        System.out.println(i++ + ". Koko eating banana: " + new KokoEatingBanana().solution());
+        System.out.println(i++ + ". Find min in rotated sorted arr: " + new FindMinInRotatedSortedArr().solution());
+        System.out.println(i++ + ". Search in rotated sorted arr: " + new SearchInRotatedSortedArr().solution());
+
+        //Heap
+        System.out.println(i++ + ". Last stone weight: " + new LastStoneWeight().solution());
+        System.out.println(i++ + ". K closest to origin: " + Arrays.deepToString(new KClosestPointToOrigin().solution()));
+
+
     }
 }
